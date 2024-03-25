@@ -30,4 +30,3 @@ jobs:
           credentials: ${{ secrets.GCP_PROJECT_CREDENTIALS }}
           project_id: fe-project-418300
           app: fe-project
-          version: ${{ github.sha }}
